@@ -1,0 +1,350 @@
+body{
+    font-family: "Product Sans";
+    margin: 0;
+    padding: 0;
+    background-color: #E7E7E8;
+}
+
+.sidebar{
+    background-color: #FEFEFE;
+    height: 50rem;
+    width: 18rem;
+}
+
+.logo{
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 1rem 4rem;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2.2rem;
+}
+
+.side-links{
+    margin: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: 000000;
+    font-size: 20px;
+}
+
+a:hover{
+    color: #197DFF;
+}
+
+.side-icons{
+    height: 22px;
+    width: 22px;
+    position: relative;
+    top: 3px;
+}
+
+nav{
+    height: 4rem;
+    width: 50rem;
+    background-color: #FEFEFE;
+    position: absolute;
+    top: 0;
+    left: 18rem;
+    
+}
+
+.account{
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#acc-name{
+    position: relative;
+    top: 0;
+    left: -50px;
+}
+
+#search{
+    height: 36px;
+    width: 300px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    font-family: inherit;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+#search:focus{
+    border: #197DFF;
+}
+
+#search-icon{
+    position: relative;
+    top: 6px;
+    left: -36px;
+}
+
+.filter{
+    padding-right: 1rem;
+}
+
+.artist{
+    background-color: #FEFEFE;
+    height: 8rem;
+    width: 50rem;
+    position: absolute;
+    top: 5rem;
+    left: 18rem;
+}
+
+.artist-pic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pic-artist{
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 50%;
+}
+
+.follow{
+    font-size: 1.5rem;
+    font-weight: 600;
+    position: relative;
+    left: 2rem;
+    padding-bottom: 10px;
+}
+
+.artist-name{
+    font-size: 12px;
+    color: #333;
+    padding-left: 12px;
+}
+
+.album{
+    position: absolute;
+    top: 13rem;
+    left: 18rem;
+    height:37rem;
+    width: 18rem;
+    background-color: #FEFEFE;
+}
+
+.album-fav{
+    font-size: 22px;
+    font-weight: 800;
+    padding-left: 2rem;
+}
+
+.fav-album-pic{
+    height: 14rem;
+    width: 16rem;
+    border-radius: 25px;
+}
+
+.fav-album-name{
+    background-color: #FEFEFE;
+    height: 3rem;
+    width: 9rem;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Product Sans';
+    position: relative;
+    top: -3.5rem;
+    left: 0.5rem;
+    cursor: pointer;
+}
+
+.fav-album-name:active{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.songs{
+    height: 37rem;
+    width: 31rem;
+    position: absolute;
+    top: 13rem;
+    left: 37rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.song-details{
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.trend-song{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.trend-song-div{
+    height: 4rem;
+    width: 31rem;
+    background-color: #FEFEFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.songs-tab{
+    margin-top: 0.8rem;
+    height: 6rem;
+    width: 31rem;
+    background-color: #FEFEFE;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}
+
+.singer-name{
+    font-size: 12px;
+    position: relative;
+    top: 8px;
+}
+
+.song-name{
+    font-size: 16px;
+    position: relative;
+    top: -8px;
+}
+
+.singer-pic{
+    height: 4rem;
+    width: 4rem;
+    float: left;
+    border-radius: 50%;
+}
+
+.play-area{
+    height: 50rem;
+    width: 15.2rem;
+    background-color: #E7E7E8;
+    position: absolute;
+    top: 0;
+    left: 69rem;
+}
+
+.nav-acc{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.play{
+    height: 30rem;
+    width: 15.2rem;
+    background-color: #FEFEFE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.play-poster{
+    height: 16rem;
+    width: 13rem;
+    border: 2px solid #FEFEFE;
+}
+
+.play-poster-pic{
+    height: 16rem;
+    width: 13rem;
+    border: 2px solid #197DFF;
+}
+
+.song-details-play{
+    width: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.play-artist{
+    font-size: 14px;
+}
+
+.play-song{
+    font-size: 18px;
+    margin-top: -12px;
+}
+
+.play-timing{
+    height: 3rem;
+    width: 13rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.play-controls{
+    height: 4rem;
+    width: 13rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.recent{
+    height: 20rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.recent-text{
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 3.8rem;
+}
+
+.recent-text-tab{
+    margin-top: 8px;
+    height: 50px;
+    width: 15rem;
+    background-color: #FEFEFE;
+}
+
+.recent-tab{
+    height: 4.5rem;
+    width: 15.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #FEFEFE;
+    margin-top: 0.9rem;
+}
+
+.recent-pic{
+    margin-top: 0.5rem;
+    height: 3em;
+    width: 3rem;
+    border-radius: 50px;
+}
+
+.recent-artist{
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.recent-song{
+    font-size: 14px;
+    margin-top: -6px;
+}
